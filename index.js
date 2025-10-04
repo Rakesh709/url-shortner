@@ -2,6 +2,8 @@ import { log } from "console";
 import express from "express"
 import userRouter from "./routes/user.routes.js"
 
+import {authanticationMiddleware} from "./middleware/auth.middleware.js"
+
 const app = express()
 const PORT = process.env.PORT || 8000;
 
