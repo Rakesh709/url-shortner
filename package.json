@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "node --watch index",
-    "db:push":"drizzle-kit push",
-    "db:studio":"drizzle-kit studio"
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
     "dotenv": "^17.2.3",
     "drizzle-orm": "^0.44.6",
     "express": "~4.21.2",
-    "pg": "^8.16.3"
+    "pg": "^8.16.3",
+    "zod": "^4.1.11"
   }
 }
